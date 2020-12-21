@@ -24,7 +24,14 @@
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
-	<key>NSPrincipalClass</key>
-	<string>NSApplication</string>
+	<key>BASE_URL</key>
+	<string>$(BASE_URL)</string>
+	<key>TCP_HOST</key>
+	<string>$(TCP_HOST)</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>
